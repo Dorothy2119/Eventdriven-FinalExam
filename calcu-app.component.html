@@ -1,0 +1,10 @@
+
+
+
+
+<div class="box">
+<input [(ngModel)]="ans" type="text" name="answer" disabled>
+<div class="buttons">
+    <button *ngFor="let button of buttons" (click)="calcu($event)">{{button}}</button>
+</div>
+</div>
